@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import com.marcioabrantes.ContactsMicroservice.domain.People;
 
 @Component
-public class PeopleRepository extends RepositoryGenerics<People> {
+public class PeopleRepository extends RepositoryGenerics<People>{
 	@Autowired
 	public PeopleRepository(People entity) {
 		super(entity);

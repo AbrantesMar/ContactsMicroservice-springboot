@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.marcioabrantes.ContactsMicroservice.domain.repository.contract.RepositoryGenericsContract;
-
+ 
 @Repository
 public abstract class RepositoryGenerics<T> implements RepositoryGenericsContract<T> {
 	private T entity;
